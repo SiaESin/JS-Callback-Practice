@@ -49,12 +49,12 @@ document.addEventListener('keyup', function(e){
 })*/
 
 move(character).to(100, 250)
-/*
+
 function inFront() {
     // newImage.style.zIndex = "0";
     character.style.zIndex = "1";
   }
-inFront()*/
+inFront()
 
 move(newImage('assets/tree.png')).to(200, 450)
 move(newImage('assets/pillar.png')).to(350, 250)

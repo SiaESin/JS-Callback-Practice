@@ -2,7 +2,7 @@ const inventory = newInventory()
 move(inventory).to(0, 0)
 
 const character = newImage('assets/green-character/static.gif')
-
+    // element.style.zIndex = 1;
 
 function handleDirectionChange(direction) {
     if(direction === null){
@@ -49,12 +49,12 @@ document.addEventListener('keyup', function(e){
 })*/
 
 move(character).to(100, 250)
-
+/*
 function inFront() {
     // newImage.style.zIndex = "0";
     character.style.zIndex = "1";
   }
-inFront()
+inFront()*/
 
 move(newImage('assets/tree.png')).to(200, 450)
 move(newImage('assets/pillar.png')).to(350, 250)

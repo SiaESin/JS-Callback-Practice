@@ -47,9 +47,7 @@ function move(element) {
             if(e.key === 'ArrowDown'){
                 direction = 'south'
             }
-            if(callback(direction)) {
-                handleDirectionChange(direction)
-            }
+            callback(direction)
         })
         
         document.addEventListener('keyup', function(e){
